@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/DarkWood"
+    tools:context="com.example.david.project.SongList">
+
+    <RelativeLayout
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:scrollbarStyle="insideOverlay">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/Stage1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/BeginnerGreenTitle"
+                    android:fontFamily="casual"
+                    android:text="Song Set 1\nBeginner" />
+
+                <Button
+                    android:id="@+id/S101"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:backgroundTint="@color/BeginnerGreen"
+                    android:fontFamily="casual"
+                    android:text="Song 101" />
+
+                <Button
+                    android:id="@+id/S102"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:backgroundTint="@color/BeginnerGreen"
+                    android:fontFamily="casual"
+                    android:text="Song 102" />
+
+                <Button
+                    android:id="@+id/S103"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:backgroundTint="@color/BeginnerGreen"
+                    android:fontFamily="casual"
+                    android:text="Song 103" />
+
+                <Button
+                    android:id="@+id/Stage2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/EasyGreenTitle"
+                    android:fontFamily="casual"
+                    android:text="Song Set 2\nEasy" />
+
+                <Button
+                    android:id="@+id/S201"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:backgroundTint="@color/EasyGreen"
+                    android:fontFamily="casual"
+                    android:text="Song 201" />
+
+                <Button
+                    android:id="@+id/S202"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:backgroundTint="@color/EasyGreen"
+                    android:fontFamily="casual"
+                    android:text="Song 202" />
+
+                <Button
+                    android:id="@+id/s203"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:backgroundTint="@color/EasyGreen"
+                    android:fontFamily="casual"
+                    android:text="Song 203" />
+
+                <Button
+                    android:id="@+id/Stage3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/MediumOrangeTitle"
+                    android:fontFamily="casual"
+                    android:text="Song Set 3\nMedium" />
+
+                <Button
+                    android:id="@+id/S301"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:backgroundTint="@color/MediumOrange"
+                    android:fontFamily="casual"
+                    android:text="Song 301" />
+
+                <Button
+                    android:id="@+id/S302"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:backgroundTint="@color/MediumOrange"
+                    android:fontFamily="casual"
+                    android:text="Song 302" />
+
+                <Button
+                    android:id="@+id/S303"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:backgroundTint="@color/MediumOrange"
+                    android:fontFamily="casual"
+                    android:text="Song 303" />
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

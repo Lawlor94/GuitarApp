@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="darkWood">#563232</color>
+    <color name="DarkWood">#563232</color>
+    <color name="LightWood">#ffc18c</color>
+    <color name="RedWoor">#84240c</color>
+    <color name="WhiteWood">#e7cfb4</color>
+    <color name="RedWood">#84240c</color>
+    <color name="BeginnerGreen">#bdd989</color>
+    <color name="BeginnerGreenTitle">#a5cf5c</color>
+    <color name="EasyGreenTitle">#717836</color>
+    <color name="EasyGreen">#8f945c</color>
+    <color name="MediumOrangeTitle">#b6a03f</color>
+    <color name="MediumOrange">#dec863</color>
+    <color name="HardRed">#de8a63</color>
+</resources>

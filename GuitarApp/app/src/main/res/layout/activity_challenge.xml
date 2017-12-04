@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/DarkWood"
+    tools:context="com.example.lawlor.guitarapp.ChallengeActivity">
+
+    <RelativeLayout
+        android:layout_width="395dp"
+        android:layout_height="587dp"
+        android:background="@color/DarkWood"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <GridLayout
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp">
+
+            <Button
+                android:id="@+id/Chal1"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_column="0"
+                android:layout_row="0"
+                android:backgroundTint="@color/EasyGreen"
+                android:fontFamily="casual"
+                android:text="Challenge 1\nEasy" />
+
+            <Button
+                android:id="@+id/Chal2"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_column="2"
+                android:layout_row="0"
+                android:backgroundTint="@color/EasyGreen"
+                android:fontFamily="casual"
+                android:text="Challenge 2\nEasy" />
+
+            <Button
+                android:id="@+id/Chal3"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_column="0"
+                android:layout_row="1"
+                android:backgroundTint="@color/EasyGreen"
+                android:fontFamily="casual"
+                android:text="Challenge 3\nEasy" />
+
+            <Button
+                android:id="@+id/Chal4"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_column="2"
+                android:layout_row="1"
+                android:backgroundTint="@color/MediumOrange"
+                android:fontFamily="casual"
+                android:text="Challenge 4\nMedium" />
+
+            <Button
+                android:id="@+id/Chal5"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_column="0"
+                android:layout_row="2"
+                android:backgroundTint="@color/MediumOrange"
+                android:fontFamily="casual"
+                android:text="Challenge 5\nMedium" />
+
+            <Button
+                android:id="@+id/Chal6"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_column="2"
+                android:layout_row="2"
+                android:backgroundTint="@color/HardRed"
+                android:fontFamily="casual"
+                android:text="Challenge 6\nHard" />
+        </GridLayout>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

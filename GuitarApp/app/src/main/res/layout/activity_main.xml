@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/DarkWood"
+    tools:context="com.example.david.project.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="395dp"
+        android:layout_height="587dp"
+        android:background="@color/DarkWood"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <Button
+            android:id="@+id/ChallengesBtn"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/SongListBtn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:backgroundTint="@color/MediumOrange"
+            android:fontFamily="casual"
+            android:text="Challenges"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/SongListBtn"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="190dp"
+            android:backgroundTint="@color/EasyGreen"
+            android:fontFamily="casual"
+            android:text="Songs"
+            android:textSize="30sp"
+            android:typeface="normal" />
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="67dp"
+            android:fontFamily="casual"
+            android:text="Guitar/Pi Project"
+            android:textAllCaps="false"
+            android:textSize="50dp" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
